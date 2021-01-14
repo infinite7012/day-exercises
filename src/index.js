@@ -1,17 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDom from 'react-dom'
+import App from "./toDoList/todoList";
+//函数式组件
+// const App=(props)=>{
+//   const person = {name:'justin'}
+//   Object.defineProperty(person,'age',{
+//     value:12,
+//     enumerable:true
+//   })
+//   return <div>{Object.values(person)}</div>
+// }
+//类组件
+// class App extends React.Component{ 
+//   render(){
+//     return (
+//       <div>hello{this.props.title}</div>
+//     )
+//   }
+// }
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//react元素    react 组件
+//元素 camel-case  组件 pascal-case
+ReactDom.render(
+  <App/>,
+  document.querySelector('#root')
+)
