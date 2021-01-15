@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import App from "./toDoList/todoList";
+//import App from "./toDoList/todoList";
+// import App from "./testContext/index";
+import App from "./testContext/counter/App";
 //函数式组件
 // const App=(props)=>{
 //   const person = {name:'justin'}
