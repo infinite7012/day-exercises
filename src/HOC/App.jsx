@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import hoc from "./hoc";
-
+@hoc
 class App extends Component {
     render() {
         return (
@@ -13,4 +13,5 @@ class App extends Component {
         console.log(this)
     }
 }
-export default hoc(App)
+// export default hoc(App)
+export default App
