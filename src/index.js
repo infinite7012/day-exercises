@@ -4,7 +4,8 @@ import ReactDom from 'react-dom'
 // import App from "./testContext/index";
 //import App from "./testContext/counter/App";
 // import App from "./HOC/App";
-import App from "./portal/App";
+// import App from "./portal/App";
+import App from "./redux/self-redux/App";
 //函数式组件
 // const App=(props)=>{
 //   const person = {name:'justin'}
