@@ -5,7 +5,9 @@ import ReactDom from 'react-dom'
 //import App from "./testContext/counter/App";
 // import App from "./HOC/App";
 // import App from "./portal/App";
-import App from "./redux/self-redux/App";
+// import App from "./redux/self-redux/App";
+import App from "./redux/react-redux/App";
+import store from "./redux/react-redux/store";
 //函数式组件
 // const App=(props)=>{
 //   const person = {name:'justin'}
@@ -26,7 +28,12 @@ import App from "./redux/self-redux/App";
 
 //react元素    react 组件
 //元素 camel-case  组件 pascal-case
-ReactDom.render(
-  <App msg="world"/>,
-  document.querySelector('#root')
-)
+function render(){
+  ReactDom.render(
+    // <App msg="world"/>,
+    <App/>,
+    document.querySelector('#root')
+  )
+}
+store.subscribe(render)
+render()
