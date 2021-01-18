@@ -6,8 +6,11 @@ import ReactDom from 'react-dom'
 // import App from "./HOC/App";
 // import App from "./portal/App";
 // import App from "./redux/self-redux/App";
-import App from "./redux/react-redux/App";
-import store from "./redux/react-redux/store";
+// import App from "./redux/react-redux/App";
+// import store from "./redux/react-redux/store";
+import App from "./redux/toDoList/todoList";
+import { Provider } from "react-redux";
+import store from "./redux/toDoList/store";
 //函数式组件
 // const App=(props)=>{
 //   const person = {name:'justin'}
@@ -28,12 +31,14 @@ import store from "./redux/react-redux/store";
 
 //react元素    react 组件
 //元素 camel-case  组件 pascal-case
-function render(){
+// function render(){
   ReactDom.render(
     // <App msg="world"/>,
-    <App/>,
+    <Provider store={store}>
+      <App/>
+    </Provider>,
     document.querySelector('#root')
   )
-}
-store.subscribe(render)
-render()
+// }
+// store.subscribe(render)
+// render()
