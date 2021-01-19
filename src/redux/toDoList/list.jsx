@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
-import { removeAction } from "./store/actionCreators";
+import { removeAction,loadDataAction } from "./store/actionCreators";
 
 const mapStateToProps = (state) => {
     return {
@@ -10,14 +10,16 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = dispatch => {
     return {
         remove(index) {
-            return dispatch(removeAction)
+            return dispatch(removeAction(index))
+        },
+        loadData() {
+            return dispatch(loadDataAction())
         }
     }
 }
 @connect(mapStateToProps, mapDispatchToProps)
 class List extends Component {
     handleRemove = (index) => {
-        console.log(index)
         this.props.remove(index)
     }
     render() {
@@ -25,10 +27,11 @@ class List extends Component {
             <ul>
                 {
                     this.props.list.map((value, index) => {
+                        let {positionName,positionId}=value
                         return (
                             <li
-                                key={index}
-                            >{value}
+                                key={positionId}
+                            >{positionName}
                                 <button
                                     onClick={() => this.handleRemove(index)}
                                 >remove</button>
@@ -38,6 +41,9 @@ class List extends Component {
                 }
             </ul>
         )
+    }
+    componentDidMount(){
+        this.props.loadData()
     }
 }
 export default List

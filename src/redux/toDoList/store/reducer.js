@@ -1,15 +1,23 @@
 const defaultState = {
-    list: ['task1', 'task2']
+    list: []
 }
 const reducer = (state = defaultState, action) => {
     switch (action.type) {
-        case 'LOAD_Data':
-            return state
+        case 'SET_DATA':
+            console.log(action.data)
+            return {
+                ...state,
+                list: action.data
+            }
+
         case 'PUT_DATA':
             return {
                 list: [
                     ...state.list,
-                    action.task
+                    {
+                        positionId:new Date().getTime(),
+                        positionName:action.task
+                    }
                 ]
             }
         case 'REMOVE_DATA':
