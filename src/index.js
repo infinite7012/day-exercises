@@ -12,7 +12,8 @@ import ReactDom from 'react-dom'
 // import { Provider } from "react-redux";
 // import store from "./redux/toDoList/store";
 // import App from './router/App'
-import App from './router/UrlParameter'
+// import App from './router/UrlParameter'
+import App from './router/nesting'
 //函数式组件
 // const App=(props)=>{
 //   const person = {name:'justin'}
