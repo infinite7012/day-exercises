@@ -8,9 +8,11 @@ import ReactDom from 'react-dom'
 // import App from "./redux/self-redux/App";
 // import App from "./redux/react-redux/App";
 // import store from "./redux/react-redux/store";
-import App from "./redux/toDoList/todoList";
-import { Provider } from "react-redux";
-import store from "./redux/toDoList/store";
+// import App from "./redux/toDoList/todoList";
+// import { Provider } from "react-redux";
+// import store from "./redux/toDoList/store";
+// import App from './router/App'
+import App from './router/UrlParameter'
 //函数式组件
 // const App=(props)=>{
 //   const person = {name:'justin'}
@@ -34,9 +36,10 @@ import store from "./redux/toDoList/store";
 // function render(){
   ReactDom.render(
     // <App msg="world"/>,
-    <Provider store={store}>
-      <App/>
-    </Provider>,
+    // <Provider store={store}>
+    //   <App/>
+    // </Provider>,
+    <App />,
     document.querySelector('#root')
   )
 // }
