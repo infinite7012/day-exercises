@@ -1,0 +1,229 @@
+{
+    "result": [
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 7461879,
+            "positionName": "Android高级研发/架构-抖音商业化",
+            "city": "上海",
+            "createTime": "今天 04:27",
+            "salary": "20k-40k",
+            "companyId": 62,
+            "companyLogo": "i/image2/M01/79/0A/CgoB5ltr2A-AM5SFAADbT9jQCn841.jpeg",
+            "companyName": "字节跳动",
+            "companyFullName": "北京字节跳动科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 7461880,
+            "positionName": "后台核心研发/架构-抖音商业化",
+            "city": "上海",
+            "createTime": "今天 04:27",
+            "salary": "20k-40k",
+            "companyId": 62,
+            "companyLogo": "i/image2/M01/79/0A/CgoB5ltr2A-AM5SFAADbT9jQCn841.jpeg",
+            "companyName": "字节跳动",
+            "companyFullName": "北京字节跳动科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 6600448,
+            "positionName": "产品经理",
+            "city": "哈尔滨",
+            "createTime": "今天 00:00",
+            "salary": "10k-20k",
+            "companyId": 30356,
+            "companyLogo": "i/image2/M01/B1/70/CgoB5lv-ZeaAV8vBAACB3Ywnv-o854.png",
+            "companyName": "平安城科",
+            "companyFullName": "平安城市建设科技（深圳）有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 6624486,
+            "positionName": "大数据产品经理",
+            "city": "深圳",
+            "createTime": "今天 00:00",
+            "salary": "20k-40k",
+            "companyId": 161720,
+            "companyLogo": "i/image2/M01/D3/D9/CgotOVxGg0iAd1bdAAC4LFhy1bk038.png",
+            "companyName": "平安金服",
+            "companyFullName": "深圳平安综合金融服务有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 6621273,
+            "positionName": "ERP技术支持顾问",
+            "city": "深圳",
+            "createTime": "今天 00:00",
+            "salary": "8k-15k",
+            "companyId": 8171,
+            "companyLogo": "image1/M00/00/11/Cgo8PFTUWDGAFjALAABFTEpL-4A053.jpg",
+            "companyName": "金蝶",
+            "companyFullName": "金蝶国际软件集团（香港）有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 7461260,
+            "positionName": "2631MH-数据产品经理（企业大数据）",
+            "city": "上海",
+            "createTime": "今天 00:00",
+            "salary": "15k-25k",
+            "companyId": 140240,
+            "companyLogo": "i/image2/M01/72/AE/CgoB5l1L0vmAOCPIAACb2YB0OPE403.jpg",
+            "companyName": "平安租赁",
+            "companyFullName": "平安国际融资租赁有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 6596903,
+            "positionName": "1221KT-员服岗",
+            "city": "郑州",
+            "createTime": "今天 00:00",
+            "salary": "4k-6k",
+            "companyId": 161720,
+            "companyLogo": "i/image2/M01/D3/D9/CgotOVxGg0iAd1bdAAC4LFhy1bk038.png",
+            "companyName": "平安金服",
+            "companyFullName": "深圳平安综合金融服务有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 6624618,
+            "positionName": "022440-数据分析岗",
+            "city": "深圳",
+            "createTime": "今天 00:00",
+            "salary": "10k-20k",
+            "companyId": 140014,
+            "companyLogo": "i/image2/M01/E5/1A/CgoB5lxzT4KAWIPDAACcCr0TFWI677.jpg",
+            "companyName": "平安人寿",
+            "companyFullName": "中国平安人寿保险股份有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 6626126,
+            "positionName": "1121VD-JAVA 开发工程师",
+            "city": "成都",
+            "createTime": "今天 00:00",
+            "salary": "15k-30k",
+            "companyId": 24748,
+            "companyLogo": "i/image3/M01/76/76/Cgq2xl5wh4GAWNvTAAAmbwQ7z4M010.png",
+            "companyName": "平安科技",
+            "companyFullName": "平安科技（深圳）有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 6605628,
+            "positionName": "1121UJ-资深数据分析师（北京）",
+            "city": "北京",
+            "createTime": "今天 00:00",
+            "salary": "18k-36k",
+            "companyId": 24748,
+            "companyLogo": "i/image3/M01/76/76/Cgq2xl5wh4GAWNvTAAAmbwQ7z4M010.png",
+            "companyName": "平安科技",
+            "companyFullName": "平安科技（深圳）有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 7461304,
+            "positionName": "0332CE-平台产品经理岗",
+            "city": "深圳",
+            "createTime": "今天 00:00",
+            "salary": "14k-28k",
+            "companyId": 1868,
+            "companyLogo": "i/image2/M01/DA/BF/CgotOVxlZliAbwQHAACkneX94BM268.jpg",
+            "companyName": "平安产险",
+            "companyFullName": "中国平安财产保险股份有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 6648215,
+            "positionName": "Android开发工程师",
+            "city": "南京",
+            "createTime": "昨天 23:52",
+            "salary": "15k-30k",
+            "companyId": 356014,
+            "companyLogo": "i/image2/M01/24/00/CgotOVzCdU6AH2CiAAASnkcueyM129.JPG",
+            "companyName": "易宝软件科技（南京）有限公司",
+            "companyFullName": "易宝软件科技（南京）有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 6631439,
+            "positionName": "资深Java工程师-支付中心--0167",
+            "city": "北京",
+            "createTime": "昨天 23:50",
+            "salary": "30k-45k",
+            "companyId": 1686,
+            "companyLogo": "i/image/M00/86/41/CgpFT1rOxKOAXsCwAAB1tzB2sOU050.jpg",
+            "companyName": "爱奇艺",
+            "companyFullName": "北京奇艺世纪科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 6634473,
+            "positionName": "渠道广告销售--2369",
+            "city": "上海",
+            "createTime": "昨天 23:50",
+            "salary": "5k-7k",
+            "companyId": 1686,
+            "companyLogo": "i/image/M00/86/41/CgpFT1rOxKOAXsCwAAB1tzB2sOU050.jpg",
+            "companyName": "爱奇艺",
+            "companyFullName": "北京奇艺世纪科技有限公司"
+        },
+        {
+            "logger": {
+                "traceCapable": true,
+                "name": "com.lagou.entity.mobile.MobilePosition"
+            },
+            "positionId": 6603785,
+            "positionName": "推荐算法工程师",
+            "city": "北京",
+            "createTime": "昨天 22:53",
+            "salary": "25k-40k",
+            "companyId": 4128,
+            "companyLogo": "i/image/M00/00/ED/CgqKkVZbw3eAS5NKAAAptNglgQY659.jpg",
+            "companyName": "知乎",
+            "companyFullName": "北京智者天下科技有限公司"
+        }
+    ]
+}

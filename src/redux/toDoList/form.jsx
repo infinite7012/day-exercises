@@ -1,14 +1,11 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
+import {putAction} from './store/actionCreators'
 
 const mapDispatchToProps = dispatch => {
     return {
         putData(task) {
-            return dispatch({
-                type: 'PUT_DATA',
-                task
-            }
-            )
+            return dispatch(putAction)
         }
     }
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
+import { removeAction } from "./store/actionCreators";
 
 const mapStateToProps = (state) => {
     return {
@@ -9,11 +10,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = dispatch => {
     return {
         remove(index) {
-            return dispatch({
-                type: 'REMOVE_DATA',
-                index
-            }
-            )
+            return dispatch(removeAction)
         }
     }
 }
