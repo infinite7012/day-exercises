@@ -17,7 +17,8 @@ import ReactDom from 'react-dom'
 // import App from './router/customLink'
 // import App from './router/customLink2'
 // import App from './router/redirect'
-import App from "./router/redirects";
+// import App from "./router/redirects";
+import App from "./router/params.jsx";
 //函数式组件
 // const App=(props)=>{
 //   const person = {name:'justin'}
